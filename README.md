@@ -1,3 +1,9 @@
-This is a Hotel Management tool which can be used to manage activites like storing customer details, booking rooms of four different types, ordering food for particular rooms, unbooking rooms and showing the bill. It can also be used to see different room features and room availibility. It is a menu driven program and it runs until the user exits. File handling has been used to store the current status of the hotel(customer details, booked rooms, food ordered) in a file once the program exits so that when we restart the program, the old details are not lost. The program reads the file when it restarts to know the previous status of the hotel. Writing of file has been done in a separate thread as it can be done parallely. User defined exception is thrown if the user tries to book an already allotted room. Exception handling is properly done to deal with any kind of unexpected exception.
+Hotel Management Tool
 
-Topics Covered- Classes and Objects, Inheritance, File Handling with Objects, ArrayList, implementing Interface, User defined exception and Exception handling.
+This is a comprehensive Hotel Management application designed to handle various operations such as storing customer information, booking rooms of four distinct types, placing food orders for specific rooms, cancelling room bookings, and generating bills. The system also allows users to view different room features and check room availability.
+
+It is a menu-driven program that continues running until the user chooses to exit. File handling is used to store the hotel’s current state (customer details, booked rooms, and food orders) when the program ends, ensuring that previous data is preserved when the program is restarted. Upon startup, the application reads this file to restore the hotel’s prior status.
+
+File writing is executed in a separate thread, enabling it to run in parallel without interrupting other operations. If a user attempts to book a room that is already allocated, a custom (user-defined) exception is raised. Robust exception handling is implemented to address any unexpected errors gracefully.
+
+Topics Covered – Object-Oriented Concepts (Classes and Objects), Inheritance, File Handling with Objects, ArrayList Usage, Implementing Interfaces, Custom Exceptions, and Exception Management.
